@@ -163,6 +163,38 @@ footer {
     padding: 20px 0;
 }
 
+footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #BC6A3Dff;
+    font-size: large;
+    font-weight: bold;
+    transition: color 0.3s;
+	padding: 5px 20px;
+	border-radius: 5px;
+	text-align: center;
+	transition-property: color, background;
+}
+
+footer nav a:hover {
+    color: #ffffff;
+    background: #BC6A3Dff;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    gap: 250px;
+    margin-left: 150px;
+    margin-bottom: 15px;
+
+}
+
 footer h2{
     font-size: medium;
     margin-bottom: 10px;

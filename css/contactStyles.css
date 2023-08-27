@@ -10,11 +10,9 @@ body {
 }
 
 header {
-    background-color: rgba(230, 230, 230, 0.5);
+    background-color: #302623ff;
     box-shadow: 0 2px 5px #BC6A3Dff;
     padding: 10px;
-    width: 100%;
-    position: fixed;
 }
 
 nav {
@@ -38,7 +36,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #4c3c32;
+    color: #BC6A3Dff;
     font-size: large;
     font-weight: bold;
     transition: color 0.3s;
@@ -60,19 +58,19 @@ nav a:hover {
     background: #4c3c32;
 }
 
-.contact {
-    padding: 100px 0;
+.contact_us {
+    padding: 250px 0;
     text-align: center;
-    background-color: #4c3c32;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
-.contact h2 {
+.contact_us h2 {
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-.contact p {
+.contact_us p {
     font-size: 18px;
     margin-bottom: 40px;
 }
@@ -82,4 +80,78 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #BC6A3Dff;
+    font-size: large;
+    font-weight: bold;
+    transition: color 0.3s;
+	padding: 5px 20px;
+	border-radius: 5px;
+	text-align: center;
+	transition-property: color, background;
+}
+
+footer nav a:hover {
+    color: #ffffff;
+    background: #BC6A3Dff;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    gap: 250px;
+    margin-left: 150px;
+    margin-bottom: 15px;
+
+}
+
+footer h2{
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+.contact ul{
+    margin-left: 120px;
+    list-style: none;
+    gap: 80px;
+    justify-content: center;
+    display: flex;
+}
+
+.contact li{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact i{
+    margin-right: 5px;
+}
+
+
+.socmed ul{
+    list-style: none;
+    gap: 25px;
+    justify-content: center;
+    display: flex;
+}
+
+.socmed i {
+    font-size: 20px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.socmed a {
+    color: white;
+    text-decoration: none;
 }
