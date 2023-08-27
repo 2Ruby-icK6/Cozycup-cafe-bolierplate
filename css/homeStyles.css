@@ -169,7 +169,7 @@ footer h2{
 }
 
 .contact ul{
-    margin-left: 50px;
+    margin-left: 120px;
     list-style: none;
     gap: 80px;
     justify-content: center;
@@ -195,5 +195,12 @@ footer h2{
 
 .socmed i {
     font-size: 20px;
-    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.socmed a {
+    color: white;
+    text-decoration: none;
 }
