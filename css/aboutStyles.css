@@ -59,10 +59,15 @@ nav a:hover {
     background: #4c3c32;
 }
 
-.about {
-    padding: 250px 0;
+section {
+    padding: 100px 0;
     text-align: center;
     background-color: #ede4d6;
+}
+
+.about img {
+    margin-top: -100px;
+    max-width: 200px;
 }
 
 .about h2 {
@@ -74,6 +79,20 @@ nav a:hover {
     font-size: 18px;
     max-width: 800px;
     margin: 0 auto;
+    text-align: center;
+}
+
+
+.history h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.history p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 footer {
