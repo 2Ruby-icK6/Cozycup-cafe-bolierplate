@@ -11,8 +11,9 @@ body {
 }
 
 header {
-    background-color: #7b6e6e;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-shadow: 0 2px 5px #BC6A3Dff;
+
     padding: 20px;
 }
 
