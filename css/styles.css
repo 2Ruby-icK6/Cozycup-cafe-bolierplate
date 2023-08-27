@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #fff;
+    background-color: #7b6e6e;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
@@ -23,32 +23,47 @@ nav {
 }
 
 .logo img {
-    max-width: 100px;
+    max-width: 60px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 
 nav a {
     text-decoration: none;
     color: #4c3c32;
+    font-size: large;
     font-weight: bold;
     transition: color 0.3s;
+	padding: 5px 20px;
+	border-radius: 5px;
+	text-align: center;
+	transition-property: color, background;
+}
+
+nav a i {
+    font-size: 18px;
+	margin-left: -5px;
+	margin-right: 5px;
+	margin-top: 10px;
 }
 
 nav a:hover {
-    color: #7e685b;
+    color: #ffffff;
+    background: #4c3c32;
 }
 
 .hero {
     text-align: center;
     padding: 150px 0;
-    background-image: url('hero-bg.jpg');
+    background-image: url('../img/BG1_Img.png');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 .hero h1 {
