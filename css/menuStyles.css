@@ -59,7 +59,7 @@ nav a:hover {
 }
 
 .menu {
-    padding: 250px 0;
+    padding: 10px 0;
     text-align: center;
     background: white;
 }
@@ -67,6 +67,70 @@ nav a:hover {
 .menu h2 {
     font-size: 30px;
     margin-bottom: 20px;
+}
+
+.menu-group-heading {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #ede4d6;
+}
+
+.menu-group-heading h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #ede4d6;
+}
+
+.menu-group {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #302623ff;
+    color: white;
+}
+
+.menu img:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+.menu-item-name {
+  margin-right: 1.5em;
+}
+
+.menu-item-desc {
+  line-height: 1.6;
+}
+
+.menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+.menu img {
+    width: 220px;
+    height: 210px;
+    border: 2px solid #BC6A3Dff;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #d6a484;
+    cursor: pointer;
+    margin: 50px;
+    transition: 400ms;
 }
 
 footer {
