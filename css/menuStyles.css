@@ -84,7 +84,7 @@ nav a:hover {
 }
 
 .menu-group {
-    text-align: center;
+    text-align: auto;
     padding: 20px 0;
     background-color: #302623ff;
     color: white;
