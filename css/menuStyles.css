@@ -69,6 +69,12 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
+.menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+}
+
 footer {
     background-color: #4c3c32;
     color: white;
