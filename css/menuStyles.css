@@ -91,6 +91,24 @@ nav a:hover {
     overflow: hidden;
 }
 
+.menu-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+.menu-item-name {
+  margin-right: 1.5em;
+}
+
+.menu-item-desc {
+  line-height: 1.6;
+}
+
+.menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
 .menu img {
     width: 220px;
     height: 210px;
