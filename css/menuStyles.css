@@ -82,9 +82,6 @@ nav a:hover {
     color: white;
 }
 
-
-
-
 .img{
     display: flex;
     justify-content: center;
@@ -92,6 +89,17 @@ nav a:hover {
     flex-wrap: wrap;
     position: relative;
     overflow: hidden;
+}
+
+.menu img {
+    width: 220px;
+    height: 210px;
+    border: 2px solid #BC6A3Dff;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #d6a484;
+    cursor: pointer;
+    margin: 50px;
+    transition: 400ms;
 }
 
 footer {
