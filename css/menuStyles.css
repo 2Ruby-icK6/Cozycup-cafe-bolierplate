@@ -76,11 +76,11 @@ nav a:hover {
 }
 
 .menu-group {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5em;
-    padding: 1.5em 0;
-  }
+    text-align: center;
+    padding: 20px 0;
+    background-color: #302623ff;
+    color: white;
+}
 
 footer {
     background-color: #4c3c32;
