@@ -59,8 +59,8 @@ nav a:hover {
     background: #4c3c32;
 }
 
-section {
-    padding: 100px 0;
+.about {
+    padding: 110px 0;
     text-align: center;
     background-color: #ede4d6;
 }
@@ -80,6 +80,12 @@ section {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+}
+
+.history {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #ede4d6;
 }
 
 
@@ -102,31 +108,71 @@ section {
     text-align: justify;
 }
 
-.team {
-    padding: 100px 0;
-    text-align: center;
-    background-color: #0000;
-}
-
-.Owner img{
-    width: 160px;
-    height: 220px;
+.Team {
     padding: 50px 0;
     text-align: center;
     background-color: #ede4d6;
-    margin: 50px;
 }
 
-.Staff img {
+.Owner {
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.Owner ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Staff {
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.Staff ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;  
+}
+
+.member img {
     width: 160px;
     height: 220px;
-    text-align: center;
-    background-color: #ede4d6;
+    justify-content: center;
+    border: 2px solid rgb(56, 40, 32);
+    border-radius: 13px;
+    box-shadow: 1px 5px 5px 0px #4a4745;
     margin: 20px;
+}
+
+.member {
+    max-width: 290px;
+}
+
+.member h2{
+    margin-top: -15px;
+}
+
+.member p{
+    font-size: 20px;
+}
+
+.mission {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #302623ff;
+}
+
+.mission h2 {
+    color: #BC6A3Dff;
 }
 
 .mission p {
     font-size: 18px;
+    color: #BC6A3Dff;
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
