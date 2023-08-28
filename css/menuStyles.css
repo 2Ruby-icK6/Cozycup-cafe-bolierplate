@@ -82,6 +82,11 @@ nav a:hover {
     color: white;
 }
 
+.menu img:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
 .img{
     display: flex;
     justify-content: center;
@@ -108,7 +113,7 @@ nav a:hover {
     justify-content: space-between;
     margin: 0;
   }
-  
+
 .menu img {
     width: 220px;
     height: 210px;
