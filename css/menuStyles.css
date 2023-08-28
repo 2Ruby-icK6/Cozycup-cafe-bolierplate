@@ -90,6 +90,13 @@ nav a:hover {
     color: white;
 }
 
+.menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+  }
+
 .menu img:hover {
     filter: grayscale(1);
     transform: scale(1.03);
