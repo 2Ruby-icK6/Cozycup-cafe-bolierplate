@@ -70,9 +70,9 @@ nav a:hover {
 }
 
 .menu-group-heading {
-    margin: 0;
-    padding-bottom: 1em;
-    border-bottom: 2px solid #ccc;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #ede4d6;
 }
 
 .menu-group {
