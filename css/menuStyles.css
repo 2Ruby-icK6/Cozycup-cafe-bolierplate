@@ -84,18 +84,11 @@ nav a:hover {
 }
 
 .menu-group {
-    text-align: auto;
+    text-align: center;
     padding: 20px 0;
     background-color: #302623ff;
     color: white;
 }
-
-.menu-group {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5em;
-    padding: 1.5em 0;
-  }
 
 .menu img:hover {
     filter: grayscale(1);
